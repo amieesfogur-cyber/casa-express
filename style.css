@@ -666,3 +666,81 @@ footer span {
     }
 
     .
+/* الخدمات */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+.services h2,
+.prices h2,
+.trust h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #ddd;
+}
+
+.card h3 {
+    color: #e67e22;
+}
+
+
+/* الأسعار */
+.prices {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.price-box {
+    display: inline-block;
+    width: 250px;
+    background: #222;
+    color: white;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.price-box h3 {
+    color: #f39c12;
+}
+
+
+/* الثقة */
+.trust {
+    text-align: center;
+    padding: 40px;
+    background: #e67e22;
+    color: white;
+}
+
+.trust p {
+    font-size: 18px;
+}
+
+
+/* الهاتف */
+@media(max-width:700px){
+
+    .card,
+    .price-box {
+        width:90%;
+    }
+
+}
