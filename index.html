@@ -97,9 +97,34 @@
 <button type="submit">
 إرسال الطلب عبر واتساب
 </button>
+<section class="order-form" id="order">
+
+<h2>اطلب التوصيل الآن 🛵</h2>
+
+<form onsubmit="sendWhatsApp(); return false;">
+
+<input id="name" type="text" placeholder="الاسم الكامل" required>
+
+<input id="phone" type="tel" placeholder="رقم الهاتف" required>
+
+<input id="address" type="text" placeholder="العنوان" required>
+
+<select id="service">
+<option>نوع الخدمة</option>
+<option>توصيل طرد</option>
+<option>توصيل طلب مطعم</option>
+<option>توصيل وثائق</option>
+</select>
+
+<textarea id="note" placeholder="معلومات إضافية"></textarea>
+
+<button type="submit">
+إرسال الطلب عبر واتساب
+</button>
 
 </form>
 
+</section>
 </section>
 <body>
 <div class="logo">
