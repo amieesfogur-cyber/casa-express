@@ -919,3 +919,51 @@ padding:70px 15px;
 
 
 }
+/* قسم التواصل */
+
+.contact {
+
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+
+.contact h2 {
+
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #f39c12;
+
+}
+
+
+.contact p {
+
+    font-size: 18px;
+    margin: 12px;
+
+}
+
+
+.contact a {
+
+    display: inline-block;
+    margin-top: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+
+.contact a:hover {
+
+    background: #128C7E;
+
+}
