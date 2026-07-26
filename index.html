@@ -125,7 +125,34 @@
 </form>
 
 </section>
-</section>
+</section><script>
+
+function sendWhatsApp(){
+
+let name = document.getElementById("name").value;
+let phone = document.getElementById("phone").value;
+let address = document.getElementById("address").value;
+let service = document.getElementById("service").value;
+let note = document.getElementById("note").value;
+
+
+let message =
+"طلب جديد من موقع Casa Express%0A%0A"+
+"الاسم: "+name+"%0A"+
+"الهاتف: "+phone+"%0A"+
+"العنوان: "+address+"%0A"+
+"الخدمة: "+service+"%0A"+
+"ملاحظات: "+note;
+
+
+window.open(
+"https://wa.me/212624581369?text="+message,
+"_blank"
+);
+
+}
+
+</script>
 <body>
 <div class="logo">
     <div class="logo-icon">🛵</div>
