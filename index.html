@@ -30,6 +30,21 @@
 <a href="https://wa.me/212624581369" target="_blank">
     📲 اطلب عبر واتساب
 </a>
+<script>
+function sendWhatsApp() {
+    let name = document.querySelectorAll("input")[0].value;
+    let phone = document.querySelectorAll("input")[1].value;
+    let from = document.querySelectorAll("input")[2].value;
+    let to = document.querySelectorAll("input")[3].value;
 
+    let message = "طلب توصيل جديد%0A" +
+    "الاسم: " + name + "%0A" +
+    "الهاتف: " + phone + "%0A" +
+    "من: " + from + "%0A" +
+    "إلى: " + to;
+
+    window.open("https://wa.me/212624581369?text=" + message);
+}
+</script>
 </body>
 </html>
