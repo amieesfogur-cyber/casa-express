@@ -1041,3 +1041,19 @@ padding:70px 15px;
     margin-top: 30px;
 
 }
+.main-btn {
+
+background:#f39c12;
+color:white;
+padding:14px 30px;
+border-radius:30px;
+text-decoration:none;
+font-size:18px;
+
+}
+
+.main-btn:hover {
+
+background:#d68910;
+
+}
