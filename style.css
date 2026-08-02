@@ -128,3 +128,86 @@ background:#d60000;
 padding:15px 35px;
 border-radius:50px;
 color
+/* ==========================
+   PART 2 - SERVICES & PRICING
+========================== */
+
+/* Services */
+
+.services{
+background:#fff;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.service-box{
+background:#fff;
+padding:35px 25px;
+border-radius:18px;
+text-align:center;
+box-shadow:0 8px 25px rgba(0,0,0,.08);
+transition:.35s;
+border-top:5px solid #d60000;
+}
+
+.service-box:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.service-box i{
+font-size:50px;
+color:#d60000;
+margin-bottom:20px;
+}
+
+.service-box h3{
+font-size:24px;
+margin-bottom:15px;
+color:#111;
+}
+
+.service-box p{
+color:#666;
+font-size:16px;
+}
+
+/* Pricing */
+
+.pricing{
+background:#f7f7f7;
+}
+
+.pricing{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.price-card{
+background:#111;
+color:#fff;
+padding:35px;
+border-radius:20px;
+text-align:center;
+transition:.3s;
+}
+
+.price-card:hover{
+background:#d60000;
+transform:scale(1.05);
+}
+
+.price-card h3{
+font-size:26px;
+margin-bottom:20px;
+}
+
+.price-card p{
+font-size:30px;
+font-weight:bold;
+}
